@@ -1637,6 +1637,283 @@ a {
   color: #fff;
 }
 
+.slide-8 .flex-right {
+  height: 100vh;
+}
+
+.slide-8 .flex-left {
+  position: relative;
+}
+
+.slide-8 .flex-left .title {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.slide-8 .pic {
+  width: 100%;
+  position: relative;
+  transform: translateX(40px);
+  max-height: 80vh;
+}
+
+.slide-8 .pic img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slide-8 .pic .description {
+  position: absolute;
+  left: 350px;
+  z-index: 20;
+  transform: translateY(50px);
+}
+
+.slide-9 .flex-right {
+  height: 100vh;
+  border-right: 200px solid #fbf3a7;
+  width: 55%;
+}
+
+.slide-9 .flex-left {
+  width: 45%;
+}
+
+.slide-9 .pic {
+  position: relative;
+}
+
+.slide-9 .pic .description {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.slide-9 .text {
+  font-size: 1.3vw;
+  color: #000;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+.slide-9 .text b {
+  font-weight: bold;
+}
+
+.slide-10 .flex-right {
+  position: relative;
+  height: 100vh;
+}
+
+.slide-10 .pic {
+  position: relative;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slide-10 .pic .description {
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+}
+
+.slide-10 .text {
+  font-size: 1.3vw;
+  color: #000;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+.slide-10 .text b {
+  font-weight: bold;
+}
+
+.cart {
+  text-align: center;
+}
+
+.cart__name {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.cart__description {
+  font-size: 1.2vw;
+  line-height: 1.4;
+}
+
+.slide-11 .title {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  font-size: 6vw;
+  line-height: 3vw;
+}
+
+.slide-11 .title span {
+  padding-left: 100px;
+  display: inline-block;
+}
+
+.slide-11 .flex-left {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+.slide-11 .flex-right {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  background: url(../img/bg-12.png) no-repeat right center/auto 100%;
+  height: 100vh;
+}
+
+.slide-11 .cart-1 {
+  margin-top: -200px;
+}
+
+.slide-11 .cart-1 .cart__name {
+  margin-top: -200px;
+}
+
+.slide-12 {
+  justify-content: space-between;
+}
+
+.slide-12 .flex-left {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  height: 100vh;
+  width: 50%;
+  background: url(../img/gh.svg) no-repeat right -370px center/auto 110%;
+}
+
+.slide-12 .flex-right {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.slide-12 .flex-right .cart {
+  width: calc(33.3% - 10px);
+}
+
+.slide-13 {
+  justify-content: space-between;
+  background: url(../img/podveska-3.png) no-repeat 70% top/auto 90%;
+}
+
+.slide-13 .flex-left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 100px;
+  height: 100vh;
+  width: 45%;
+}
+
+.slide-13 .flex-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  width: 55%;
+}
+
+.slide-13 .flex-right .cart {
+  width: calc(33.3% - 10px);
+}
+
+.slide-14 {
+  justify-content: space-between;
+}
+
+.slide-14 .flex-left {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  height: 100vh;
+  width: 45%;
+}
+
+.slide-14 .flex-right {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  justify-content: space-between;
+  width: 55%;
+  padding-left: 5%;
+  background: url(../img/blue-line.svg) no-repeat left -472px center/auto 150%;
+}
+
+.slide-14 .flex-right .cart {
+  width: calc(33.3% - 10px);
+}
+
+.slide-15 {
+  background-color: #7d6e99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last__link {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials__link {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.socials__ico {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials__ico img {
+  width: 20px;
+  height: 20px;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 200;
+}
+
+.prev {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 200;
+}
+
 @media (min-width: 980px) {
   .header.header-size .header__wrap {
     height: 105px;
