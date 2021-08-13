@@ -1296,10 +1296,14 @@ footer {
 }
 
 .slide-1 {
-  background: linear-gradient(45deg, #f4b647, #a3610b);
+  background: url(../img/OH_MY_STILL_LIFE97929_fin_hor.jpg) no-repeat center bottom/cover;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.slide-1 .flex {
+  transform: translateX(60px);
 }
 
 .logo {
@@ -1350,7 +1354,26 @@ footer {
 
 .title {
   font-weight: 500;
-  font-size: 60px;
+  font-size: 4vw;
+}
+
+.title b {
+  font-weight: bold;
+}
+
+.line {
+  display: inline-block;
+  position: relative;
+}
+
+.line:after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  height: 3px;
+  width: calc(100% + 10px);
+  background-color: #ceabd1;
+  top: 2.3vw;
 }
 
 .slide-2 .description {
@@ -1360,7 +1383,11 @@ footer {
 }
 
 .slide-2 .pic {
-  transform: translateX(135px);
+  transform: translateX(10vw);
+}
+
+.slide-2 .pic img {
+  width: auto;
 }
 
 .slide-2 .title {
@@ -1380,7 +1407,7 @@ footer {
 
 .slide-3 .title {
   padding-left: 100px;
-  padding-top: 100px;
+  padding-top: 70px;
   margin-bottom: 30px;
   width: 100%;
   height: 150px;
@@ -1389,7 +1416,7 @@ footer {
 .slide-3 .pic {
   display: flex;
   align-items: flex-end;
-  font-size: 60px;
+  font-size: 4vw;
   justify-content: center;
   font-weight: 500;
   padding-bottom: 50px;
@@ -1397,7 +1424,7 @@ footer {
 }
 
 .slide-3 .pic-1 {
-  height: 500px;
+  height: 60vh;
   width: 500px;
   margin-right: 120px;
   position: relative;
@@ -1415,10 +1442,10 @@ footer {
 }
 
 .slide-3 .pic-2 {
-  height: 570px;
+  height: 75vh;
   width: calc(50% - 120px);
   position: relative;
-  margin-top: 150px;
+  margin-top: 16vh;
 }
 
 .slide-3 .pic-2:after {
@@ -1434,6 +1461,12 @@ footer {
 
 .slide-3 .pic-3 {
   width: 50%;
+  height: 90vh;
+  margin-top: 2vh;
+}
+
+a {
+  display: block;
 }
 
 .slide-4 {
@@ -1447,6 +1480,16 @@ footer {
 
 .slide-4 .pic-2 {
   max-width: 400px;
+  display: flex;
+}
+
+.slide-4 .pic-2 a {
+  height: 100%;
+}
+
+.slide-4 .pic-2 img {
+  max-height: 50vh;
+  max-width: 100%;
 }
 
 .slide-4 .flex-right {
@@ -1457,7 +1500,7 @@ footer {
 .slide-4 .title {
   max-width: 800px;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 3vw;
 }
 
 .slide-4 .title b {
@@ -1490,6 +1533,108 @@ footer {
 
 .slide-5 .title {
   font-size: 7vw;
+}
+
+.slide-6 {
+  background: url(../img/bg-6.png) no-repeat left/50% 100%;
+  padding-left: 50px;
+}
+
+.slide-6 .flex-left {
+  display: flex;
+  align-items: center;
+}
+
+.slide-6 .title {
+  font-size: 3vw;
+}
+
+.slide-6 .pic {
+  position: absolute;
+  left: 47%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  z-index: 100;
+}
+
+.slide-6 .pic-2 {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 50vw;
+}
+
+.slide-6 .pic-2 img {
+  width: 100%;
+}
+
+.slide-6 .pic-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40vw;
+}
+
+.slide-6 .flex-right {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+.slide-6 .descriptions {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+.slide-6 .description:first-child {
+  transform: translateX(-100px);
+}
+
+.slide-6 .plus {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #ceabd1;
+  margin-bottom: 20px;
+}
+
+.slide-7 .flex-right {
+  background-color: #d6e9fa;
+  align-self: center;
+  padding-bottom: 50px;
+  border-right: 5vw solid #fff;
+}
+
+.slide-7 .pic {
+  margin-top: -130px;
+  margin-bottom: -160px;
+}
+
+.slide-7 .title {
+  font-size: 2vw;
+}
+
+.slide-7 .title-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.slide-7 .description {
+  text-align: right;
+  padding-right: 50px;
+  transform: translateY(80px);
+}
+
+.slide-7 .flex-left {
+  display: flex;
+  align-items: center;
+  font-size: 7vw;
+  font-weight: bold;
+  padding-left: 5vw;
+  color: #fff;
 }
 
 @media (min-width: 980px) {
