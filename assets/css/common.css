@@ -1669,6 +1669,7 @@ a {
   padding-bottom: 100px;
   height: 100vh;
   width: 50%;
+  background: url(../img/gh.svg) no-repeat right 20% top 38%/auto 110%;
 }
 
 .slide-12 .flex-right {
@@ -1746,6 +1747,7 @@ a {
   justify-content: space-between;
   width: 55%;
   padding-left: 5%;
+  background: url(../img/blue-line.svg) no-repeat left top 40%/auto 120%;
 }
 
 .slide-14 .flex-right .cart {
@@ -1826,7 +1828,7 @@ a {
   transform: translateX(10vw) translateY(-10px);
   opacity: 0;
   transition-delay: 2s;
-  transition: .6s;
+  transition: .8s;
 }
 
 .slide-2 .description,
@@ -1838,7 +1840,7 @@ a {
   transform: translateY(-10px);
   opacity: 0;
   transition-delay: 2s;
-  transition: .6s;
+  transition: .8s;
 }
 
 .slide-3 .pic-3,
@@ -1847,7 +1849,7 @@ a {
 .slide-10 .pic {
   transform: translateY(-10px);
   opacity: 0;
-  transition: .6s;
+  transition: .8s;
 }
 
 .title,
@@ -1855,7 +1857,7 @@ a {
   transform: translateY(10px);
   opacity: 0;
   transition-delay: 2s;
-  transition: .6s;
+  transition: .8s;
 }
 
 .slide-12 .flex-right .cart-2,
@@ -1866,13 +1868,13 @@ a {
 .slide-14 .flex-right .cart-4 {
   transform: translateY(10px);
   opacity: 0;
-  transition: .6s;
+  transition: .8s;
 }
 
 .flex-left {
   opacity: 0;
   transform: scale(1.1);
-  transition: .4s;
+  transition: .6s;
 }
 
 .slide-4 .pic-2,
@@ -1908,7 +1910,7 @@ a {
 .swiper-slide-active.slide-14 .flex-right .cart-4 {
   transform: translateY(0px);
   opacity: 1;
-  transition: .6s;
+  transition: .9s;
 }
 
 .swiper-slide-active.slide-12 .flex-right .cart-2,
@@ -1942,7 +1944,7 @@ a {
 .swiper-slide-active .text {
   transform: translateY(0px);
   opacity: 1;
-  transition-delay: .3s;
+  transition-delay: .6s;
 }
 
 .swiper-slide-active .flex-left,
